@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+chromadb = ">=0.4.22"
+sentence-transformers = ">=2.2.2"
+langchain = ">=0.1.0"
+langchain-community = ">=0.0.10"
+python-dotenv = ">=1.0.0"
+click = ">=8.1.0"
+rich = ">=13.0.0"
+python-frontmatter = "*"
+markdown = "*"
+
+[dev-packages]
+nb-rag = {file = ".", editable = true}
+
+[requires]
+python_version = "3.12"
